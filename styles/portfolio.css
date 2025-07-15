@@ -206,3 +206,11 @@ footer input[type="email"], footer input[type="text"], footer textarea{
   border: none;
   font-size: 16px;
 }
+/* hover */
+a:hover{
+  background-color: aqua;
+}
+button:hover{
+  background-color: #fd6f0a;
+  color: white;
+}
