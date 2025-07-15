@@ -184,5 +184,25 @@ main section{
 }
 .resume-doenload-cv{
   margin-top:50px ;
-  margin-bottom: 113px;
+  margin-bottom: 115px;
+}
+/* footer styles */
+footer{
+  padding: 130px 300px;
+  display: flex;
+  gap: 117px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="email"], footer input[type="text"], footer textarea{
+  height: 64px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  font-size: 16px;
 }
