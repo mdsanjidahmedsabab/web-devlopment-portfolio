@@ -215,9 +215,7 @@ button:hover{
   color: white;
 }
 /* responsive media query */
-.hide{
-  display: none;
-}
+
 @media screen and (max-width:576px) {
   .skills-container, .resume-container, footer, .about-items, .banner, nav,nav > ul{
     flex-direction: column;
@@ -250,4 +248,12 @@ button:hover{
   footer input[type="email"], footer input[type="text"], footer textarea{
     width: calc(100% - 40px);
   }
+}
+/* tablet specific media query */
+@media screen and (min-width:576px) and (max-width:992px){
+  .banner{
+    flex-direction: column;
+  }
+  
+  
 }
